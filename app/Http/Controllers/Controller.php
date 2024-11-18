@@ -130,6 +130,7 @@ class Controller extends BaseController
         
     }
 
+    
     public function editproduct($id){
         $info = DB::table('products')
                     ->select('*')
